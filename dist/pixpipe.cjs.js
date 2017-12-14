@@ -1,8 +1,6 @@
-(function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
-	typeof define === 'function' && define.amd ? define(['exports'], factory) :
-	(factory((global.pixpipe = {})));
-}(this, (function (exports) { 'use strict';
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
 
 /* Copyright (c) 2015, Brandon Jones, Colin MacKenzie IV.
 
@@ -69349,8 +69347,4 @@ exports.Image3DToMosaicFilterAlt = Image3DToMosaicFilterAlt;
 exports.Image3DMetadataConverter = Image3DMetadataConverter;
 exports.MatrixTricks = MatrixTricks;
 exports.FunctionGenerator = FunctionGenerator;
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-})));
-//# sourceMappingURL=pixpipe.js.map
+//# sourceMappingURL=pixpipe.cjs.js.map
